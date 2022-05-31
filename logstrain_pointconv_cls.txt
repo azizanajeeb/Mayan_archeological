@@ -1,0 +1,421 @@
+2021-02-07 17:39:41,153 - pointconv - INFO - ---------------------------------------------------TRANING---------------------------------------------------
+2021-02-07 17:39:41,153 - pointconv - INFO - PARAMETER ...
+2021-02-07 17:39:41,153 - pointconv - INFO - Namespace(batchsize=20, decay_rate=0.0001, epoch=100, gpu='0', learning_rate=0.001, model_name='pointconv', normal=True, num_point=1024, num_workers=8, optimizer='SGD', pretrain=None)
+2021-02-07 17:39:41,153 - pointconv - INFO - Load dataset ...
+2021-02-07 17:39:41,154 - pointconv - INFO - The number of training data is: 164
+2021-02-07 17:39:41,154 - pointconv - INFO - The number of test data is: 41
+2021-02-07 17:39:43,724 - pointconv - INFO - Start training...
+2021-02-07 17:39:43,724 - pointconv - INFO - Epoch 1 (1/100):
+2021-02-07 17:42:10,932 - pointconv - INFO - Train Accuracy: 0.388889
+2021-02-07 17:43:13,384 - pointconv - INFO - Loss: 2.54
+2021-02-07 17:43:13,384 - pointconv - INFO - Test Accuracy: 0.634146  *** Best Test Accuracy: 0.000000
+2021-02-07 17:43:13,384 - pointconv - INFO - Epoch 2 (2/100):
+2021-02-07 17:46:31,622 - pointconv - INFO - Train Accuracy: 0.633333
+2021-02-07 17:47:28,539 - pointconv - INFO - Loss: 0.77
+2021-02-07 17:47:28,539 - pointconv - INFO - Test Accuracy: 0.658537  *** Best Test Accuracy: 0.000000
+2021-02-07 17:47:28,539 - pointconv - INFO - Epoch 3 (3/100):
+2021-02-07 17:49:10,172 - pointconv - INFO - Train Accuracy: 0.627778
+2021-02-07 17:49:58,002 - pointconv - INFO - Loss: 0.68
+2021-02-07 17:49:58,002 - pointconv - INFO - Test Accuracy: 0.414634  *** Best Test Accuracy: 0.000000
+2021-02-07 17:49:58,002 - pointconv - INFO - Epoch 4 (4/100):
+2021-02-07 17:51:38,128 - pointconv - INFO - Train Accuracy: 0.633333
+2021-02-07 17:52:28,962 - pointconv - INFO - Loss: 0.04
+2021-02-07 17:52:28,962 - pointconv - INFO - Test Accuracy: 0.390244  *** Best Test Accuracy: 0.000000
+2021-02-07 17:52:28,962 - pointconv - INFO - Epoch 5 (5/100):
+2021-02-07 17:54:08,974 - pointconv - INFO - Train Accuracy: 0.672222
+2021-02-07 17:54:59,654 - pointconv - INFO - Loss: 0.26
+2021-02-07 17:54:59,655 - pointconv - INFO - Test Accuracy: 0.658537  *** Best Test Accuracy: 0.000000
+2021-02-07 17:54:59,655 - pointconv - INFO - Epoch 6 (6/100):
+2021-02-07 17:56:45,804 - pointconv - INFO - Train Accuracy: 0.633333
+2021-02-07 17:57:34,553 - pointconv - INFO - Loss: 1.72
+2021-02-07 17:57:34,553 - pointconv - INFO - Test Accuracy: 0.634146  *** Best Test Accuracy: 0.000000
+2021-02-07 17:57:34,553 - pointconv - INFO - Epoch 7 (7/100):
+2021-02-07 17:59:16,657 - pointconv - INFO - Train Accuracy: 0.688889
+2021-02-07 18:00:04,118 - pointconv - INFO - Save model...
+2021-02-07 18:00:04,575 - pointconv - INFO - Loss: 0.77
+2021-02-07 18:00:04,575 - pointconv - INFO - Test Accuracy: 0.658537  *** Best Test Accuracy: 0.658537
+2021-02-07 18:00:04,575 - pointconv - INFO - Epoch 8 (8/100):
+2021-02-07 18:01:53,105 - pointconv - INFO - Train Accuracy: 0.705556
+2021-02-07 18:02:45,011 - pointconv - INFO - Loss: 1.22
+2021-02-07 18:02:45,011 - pointconv - INFO - Test Accuracy: 0.634146  *** Best Test Accuracy: 0.658537
+2021-02-07 18:02:45,011 - pointconv - INFO - Epoch 9 (9/100):
+2021-02-07 18:04:31,863 - pointconv - INFO - Train Accuracy: 0.727778
+2021-02-07 18:05:19,130 - pointconv - INFO - Save model...
+2021-02-07 18:05:19,488 - pointconv - INFO - Loss: 0.22
+2021-02-07 18:05:19,488 - pointconv - INFO - Test Accuracy: 0.658537  *** Best Test Accuracy: 0.658537
+2021-02-07 18:05:19,488 - pointconv - INFO - Epoch 10 (10/100):
+2021-02-07 18:06:58,885 - pointconv - INFO - Train Accuracy: 0.783333
+2021-02-07 18:07:50,009 - pointconv - INFO - Save model...
+2021-02-07 18:07:50,373 - pointconv - INFO - Loss: 0.16
+2021-02-07 18:07:50,373 - pointconv - INFO - Test Accuracy: 0.731707  *** Best Test Accuracy: 0.731707
+2021-02-07 18:07:50,373 - pointconv - INFO - Epoch 11 (11/100):
+2021-02-07 18:09:46,558 - pointconv - INFO - Train Accuracy: 0.805556
+2021-02-07 18:10:33,872 - pointconv - INFO - Save model...
+2021-02-07 18:10:34,235 - pointconv - INFO - Loss: 0.03
+2021-02-07 18:10:34,235 - pointconv - INFO - Test Accuracy: 0.731707  *** Best Test Accuracy: 0.731707
+2021-02-07 18:10:34,235 - pointconv - INFO - Epoch 12 (12/100):
+2021-02-07 18:12:12,422 - pointconv - INFO - Train Accuracy: 0.783333
+2021-02-07 18:13:01,163 - pointconv - INFO - Save model...
+2021-02-07 18:13:01,533 - pointconv - INFO - Loss: 0.08
+2021-02-07 18:13:01,533 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.780488
+2021-02-07 18:13:01,533 - pointconv - INFO - Epoch 13 (13/100):
+2021-02-07 18:14:41,032 - pointconv - INFO - Train Accuracy: 0.772222
+2021-02-07 18:15:31,249 - pointconv - INFO - Save model...
+2021-02-07 18:15:31,646 - pointconv - INFO - Loss: 2.58
+2021-02-07 18:15:31,646 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.780488
+2021-02-07 18:15:31,646 - pointconv - INFO - Epoch 14 (14/100):
+2021-02-07 18:17:12,164 - pointconv - INFO - Train Accuracy: 0.788889
+2021-02-07 18:18:04,430 - pointconv - INFO - Loss: 0.13
+2021-02-07 18:18:04,430 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.780488
+2021-02-07 18:18:04,430 - pointconv - INFO - Epoch 15 (15/100):
+2021-02-07 18:19:41,418 - pointconv - INFO - Train Accuracy: 0.794444
+2021-02-07 18:20:31,221 - pointconv - INFO - Loss: 0.19
+2021-02-07 18:20:31,221 - pointconv - INFO - Test Accuracy: 0.658537  *** Best Test Accuracy: 0.780488
+2021-02-07 18:20:31,221 - pointconv - INFO - Epoch 16 (16/100):
+2021-02-07 18:22:09,453 - pointconv - INFO - Train Accuracy: 0.738889
+2021-02-07 18:23:01,140 - pointconv - INFO - Loss: 3.75
+2021-02-07 18:23:01,140 - pointconv - INFO - Test Accuracy: 0.682927  *** Best Test Accuracy: 0.780488
+2021-02-07 18:23:01,140 - pointconv - INFO - Epoch 17 (17/100):
+2021-02-07 18:24:40,375 - pointconv - INFO - Train Accuracy: 0.722222
+2021-02-07 18:25:31,806 - pointconv - INFO - Loss: 4.64
+2021-02-07 18:25:31,806 - pointconv - INFO - Test Accuracy: 0.682927  *** Best Test Accuracy: 0.780488
+2021-02-07 18:25:31,806 - pointconv - INFO - Epoch 18 (18/100):
+2021-02-07 18:27:18,931 - pointconv - INFO - Train Accuracy: 0.716667
+2021-02-07 18:28:09,122 - pointconv - INFO - Loss: 0.56
+2021-02-07 18:28:09,122 - pointconv - INFO - Test Accuracy: 0.682927  *** Best Test Accuracy: 0.780488
+2021-02-07 18:28:09,122 - pointconv - INFO - Epoch 19 (19/100):
+2021-02-07 18:29:47,151 - pointconv - INFO - Train Accuracy: 0.755556
+2021-02-07 18:30:35,924 - pointconv - INFO - Loss: 1.28
+2021-02-07 18:30:35,924 - pointconv - INFO - Test Accuracy: 0.707317  *** Best Test Accuracy: 0.780488
+2021-02-07 18:30:35,924 - pointconv - INFO - Epoch 20 (20/100):
+2021-02-07 18:32:22,006 - pointconv - INFO - Train Accuracy: 0.805556
+2021-02-07 18:33:10,705 - pointconv - INFO - Loss: 0.10
+2021-02-07 18:33:10,705 - pointconv - INFO - Test Accuracy: 0.682927  *** Best Test Accuracy: 0.780488
+2021-02-07 18:33:10,705 - pointconv - INFO - Epoch 21 (21/100):
+2021-02-07 18:34:50,795 - pointconv - INFO - Train Accuracy: 0.794444
+2021-02-07 18:35:39,415 - pointconv - INFO - Loss: 1.73
+2021-02-07 18:35:39,415 - pointconv - INFO - Test Accuracy: 0.731707  *** Best Test Accuracy: 0.780488
+2021-02-07 18:35:39,469 - pointconv - INFO - Epoch 22 (22/100):
+2021-02-07 18:37:23,977 - pointconv - INFO - Train Accuracy: 0.750000
+2021-02-07 18:38:11,056 - pointconv - INFO - Loss: 1.45
+2021-02-07 18:38:11,056 - pointconv - INFO - Test Accuracy: 0.609756  *** Best Test Accuracy: 0.780488
+2021-02-07 18:38:11,056 - pointconv - INFO - Epoch 23 (23/100):
+2021-02-07 18:39:51,502 - pointconv - INFO - Train Accuracy: 0.755556
+2021-02-07 18:40:44,422 - pointconv - INFO - Loss: 0.24
+2021-02-07 18:40:44,422 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.780488
+2021-02-07 18:40:44,422 - pointconv - INFO - Epoch 24 (24/100):
+2021-02-07 18:42:22,159 - pointconv - INFO - Train Accuracy: 0.755556
+2021-02-07 18:43:13,799 - pointconv - INFO - Save model...
+2021-02-07 18:43:14,155 - pointconv - INFO - Loss: 4.42
+2021-02-07 18:43:14,155 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.780488
+2021-02-07 18:43:14,155 - pointconv - INFO - Epoch 25 (25/100):
+2021-02-07 18:44:51,323 - pointconv - INFO - Train Accuracy: 0.805556
+2021-02-07 18:45:41,705 - pointconv - INFO - Loss: 0.05
+2021-02-07 18:45:41,705 - pointconv - INFO - Test Accuracy: 0.682927  *** Best Test Accuracy: 0.780488
+2021-02-07 18:45:41,705 - pointconv - INFO - Epoch 26 (26/100):
+2021-02-07 18:47:25,411 - pointconv - INFO - Train Accuracy: 0.805556
+2021-02-07 18:48:11,265 - pointconv - INFO - Loss: 0.81
+2021-02-07 18:48:11,265 - pointconv - INFO - Test Accuracy: 0.609756  *** Best Test Accuracy: 0.780488
+2021-02-07 18:48:11,265 - pointconv - INFO - Epoch 27 (27/100):
+2021-02-07 18:49:55,479 - pointconv - INFO - Train Accuracy: 0.855556
+2021-02-07 18:50:44,718 - pointconv - INFO - Loss: 0.08
+2021-02-07 18:50:44,718 - pointconv - INFO - Test Accuracy: 0.585366  *** Best Test Accuracy: 0.780488
+2021-02-07 18:50:44,718 - pointconv - INFO - Epoch 28 (28/100):
+2021-02-07 18:52:25,874 - pointconv - INFO - Train Accuracy: 0.800000
+2021-02-07 18:53:14,255 - pointconv - INFO - Loss: 2.59
+2021-02-07 18:53:14,255 - pointconv - INFO - Test Accuracy: 0.634146  *** Best Test Accuracy: 0.780488
+2021-02-07 18:53:14,255 - pointconv - INFO - Epoch 29 (29/100):
+2021-02-07 18:55:06,974 - pointconv - INFO - Train Accuracy: 0.861111
+2021-02-07 18:55:57,393 - pointconv - INFO - Loss: 1.31
+2021-02-07 18:55:57,393 - pointconv - INFO - Test Accuracy: 0.682927  *** Best Test Accuracy: 0.780488
+2021-02-07 18:55:57,393 - pointconv - INFO - Epoch 30 (30/100):
+2021-02-07 18:57:45,586 - pointconv - INFO - Train Accuracy: 0.683333
+2021-02-07 18:58:35,925 - pointconv - INFO - Loss: 4.80
+2021-02-07 18:58:35,925 - pointconv - INFO - Test Accuracy: 0.609756  *** Best Test Accuracy: 0.780488
+2021-02-07 18:58:35,925 - pointconv - INFO - Epoch 31 (31/100):
+2021-02-07 19:00:24,578 - pointconv - INFO - Train Accuracy: 0.772222
+2021-02-07 19:01:10,754 - pointconv - INFO - Loss: 0.18
+2021-02-07 19:01:10,754 - pointconv - INFO - Test Accuracy: 0.609756  *** Best Test Accuracy: 0.780488
+2021-02-07 19:01:10,755 - pointconv - INFO - Epoch 32 (32/100):
+2021-02-07 19:02:53,138 - pointconv - INFO - Train Accuracy: 0.677778
+2021-02-07 19:03:41,686 - pointconv - INFO - Loss: 2.22
+2021-02-07 19:03:41,686 - pointconv - INFO - Test Accuracy: 0.658537  *** Best Test Accuracy: 0.780488
+2021-02-07 19:03:41,686 - pointconv - INFO - Epoch 33 (33/100):
+2021-02-07 19:05:18,365 - pointconv - INFO - Train Accuracy: 0.766667
+2021-02-07 19:06:06,147 - pointconv - INFO - Loss: 0.87
+2021-02-07 19:06:06,147 - pointconv - INFO - Test Accuracy: 0.658537  *** Best Test Accuracy: 0.780488
+2021-02-07 19:06:06,147 - pointconv - INFO - Epoch 34 (34/100):
+2021-02-07 19:07:52,584 - pointconv - INFO - Train Accuracy: 0.744444
+2021-02-07 19:08:41,371 - pointconv - INFO - Loss: 0.27
+2021-02-07 19:08:41,371 - pointconv - INFO - Test Accuracy: 0.731707  *** Best Test Accuracy: 0.780488
+2021-02-07 19:08:41,371 - pointconv - INFO - Epoch 35 (35/100):
+2021-02-07 19:10:25,751 - pointconv - INFO - Train Accuracy: 0.766667
+2021-02-07 19:11:14,197 - pointconv - INFO - Loss: 0.10
+2021-02-07 19:11:14,197 - pointconv - INFO - Test Accuracy: 0.682927  *** Best Test Accuracy: 0.780488
+2021-02-07 19:11:14,197 - pointconv - INFO - Epoch 36 (36/100):
+2021-02-07 19:12:46,424 - pointconv - INFO - Train Accuracy: 0.761111
+2021-02-07 19:13:32,970 - pointconv - INFO - Loss: 0.30
+2021-02-07 19:13:32,970 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.780488
+2021-02-07 19:13:32,970 - pointconv - INFO - Epoch 37 (37/100):
+2021-02-07 19:15:12,471 - pointconv - INFO - Train Accuracy: 0.783333
+2021-02-07 19:15:59,076 - pointconv - INFO - Loss: 3.29
+2021-02-07 19:15:59,076 - pointconv - INFO - Test Accuracy: 0.731707  *** Best Test Accuracy: 0.780488
+2021-02-07 19:15:59,076 - pointconv - INFO - Epoch 38 (38/100):
+2021-02-07 19:17:53,118 - pointconv - INFO - Train Accuracy: 0.738889
+2021-02-07 19:18:40,792 - pointconv - INFO - Loss: 2.88
+2021-02-07 19:18:40,793 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.780488
+2021-02-07 19:18:40,793 - pointconv - INFO - Epoch 39 (39/100):
+2021-02-07 19:20:43,634 - pointconv - INFO - Train Accuracy: 0.694444
+2021-02-07 19:21:30,250 - pointconv - INFO - Save model...
+2021-02-07 19:21:30,604 - pointconv - INFO - Loss: 0.89
+2021-02-07 19:21:30,605 - pointconv - INFO - Test Accuracy: 0.829268  *** Best Test Accuracy: 0.829268
+2021-02-07 19:21:30,605 - pointconv - INFO - Epoch 40 (40/100):
+2021-02-07 19:23:09,454 - pointconv - INFO - Train Accuracy: 0.744444
+2021-02-07 19:23:57,129 - pointconv - INFO - Loss: 4.42
+2021-02-07 19:23:57,130 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 19:23:57,130 - pointconv - INFO - Epoch 41 (41/100):
+2021-02-07 19:25:33,758 - pointconv - INFO - Train Accuracy: 0.705556
+2021-02-07 19:26:20,559 - pointconv - INFO - Loss: 4.71
+2021-02-07 19:26:20,559 - pointconv - INFO - Test Accuracy: 0.682927  *** Best Test Accuracy: 0.829268
+2021-02-07 19:26:20,559 - pointconv - INFO - Epoch 42 (42/100):
+2021-02-07 19:28:01,194 - pointconv - INFO - Train Accuracy: 0.822222
+2021-02-07 19:28:45,720 - pointconv - INFO - Loss: 0.05
+2021-02-07 19:28:45,720 - pointconv - INFO - Test Accuracy: 0.682927  *** Best Test Accuracy: 0.829268
+2021-02-07 19:28:45,720 - pointconv - INFO - Epoch 43 (43/100):
+2021-02-07 19:30:33,829 - pointconv - INFO - Train Accuracy: 0.788889
+2021-02-07 19:31:22,763 - pointconv - INFO - Loss: 0.68
+2021-02-07 19:31:22,763 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.829268
+2021-02-07 19:31:22,763 - pointconv - INFO - Epoch 44 (44/100):
+2021-02-07 19:33:02,240 - pointconv - INFO - Train Accuracy: 0.750000
+2021-02-07 19:33:49,131 - pointconv - INFO - Loss: 3.80
+2021-02-07 19:33:49,131 - pointconv - INFO - Test Accuracy: 0.731707  *** Best Test Accuracy: 0.829268
+2021-02-07 19:33:49,131 - pointconv - INFO - Epoch 45 (45/100):
+2021-02-07 19:35:25,537 - pointconv - INFO - Train Accuracy: 0.750000
+2021-02-07 19:36:12,593 - pointconv - INFO - Loss: 1.63
+2021-02-07 19:36:12,593 - pointconv - INFO - Test Accuracy: 0.707317  *** Best Test Accuracy: 0.829268
+2021-02-07 19:36:12,593 - pointconv - INFO - Epoch 46 (46/100):
+2021-02-07 19:37:59,625 - pointconv - INFO - Train Accuracy: 0.755556
+2021-02-07 19:38:46,142 - pointconv - INFO - Loss: 1.78
+2021-02-07 19:38:46,143 - pointconv - INFO - Test Accuracy: 0.707317  *** Best Test Accuracy: 0.829268
+2021-02-07 19:38:46,143 - pointconv - INFO - Epoch 47 (47/100):
+2021-02-07 19:40:24,596 - pointconv - INFO - Train Accuracy: 0.750000
+2021-02-07 19:41:11,979 - pointconv - INFO - Loss: 1.97
+2021-02-07 19:41:11,980 - pointconv - INFO - Test Accuracy: 0.707317  *** Best Test Accuracy: 0.829268
+2021-02-07 19:41:11,980 - pointconv - INFO - Epoch 48 (48/100):
+2021-02-07 19:42:53,143 - pointconv - INFO - Train Accuracy: 0.777778
+2021-02-07 19:43:41,391 - pointconv - INFO - Loss: 0.57
+2021-02-07 19:43:41,391 - pointconv - INFO - Test Accuracy: 0.682927  *** Best Test Accuracy: 0.829268
+2021-02-07 19:43:41,391 - pointconv - INFO - Epoch 49 (49/100):
+2021-02-07 19:45:17,116 - pointconv - INFO - Train Accuracy: 0.833333
+2021-02-07 19:46:03,390 - pointconv - INFO - Loss: 0.08
+2021-02-07 19:46:03,390 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 19:46:03,390 - pointconv - INFO - Epoch 50 (50/100):
+2021-02-07 19:47:43,278 - pointconv - INFO - Train Accuracy: 0.811111
+2021-02-07 19:48:31,260 - pointconv - INFO - Loss: 1.22
+2021-02-07 19:48:31,260 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 19:48:31,260 - pointconv - INFO - Epoch 51 (51/100):
+2021-02-07 19:50:18,686 - pointconv - INFO - Train Accuracy: 0.822222
+2021-02-07 19:51:06,933 - pointconv - INFO - Loss: 1.16
+2021-02-07 19:51:06,933 - pointconv - INFO - Test Accuracy: 0.707317  *** Best Test Accuracy: 0.829268
+2021-02-07 19:51:06,933 - pointconv - INFO - Epoch 52 (52/100):
+2021-02-07 19:52:43,845 - pointconv - INFO - Train Accuracy: 0.805556
+2021-02-07 19:53:33,764 - pointconv - INFO - Loss: 0.68
+2021-02-07 19:53:33,765 - pointconv - INFO - Test Accuracy: 0.634146  *** Best Test Accuracy: 0.829268
+2021-02-07 19:53:33,765 - pointconv - INFO - Epoch 53 (53/100):
+2021-02-07 19:55:16,607 - pointconv - INFO - Train Accuracy: 0.844444
+2021-02-07 19:56:04,978 - pointconv - INFO - Loss: 0.09
+2021-02-07 19:56:04,978 - pointconv - INFO - Test Accuracy: 0.731707  *** Best Test Accuracy: 0.829268
+2021-02-07 19:56:04,978 - pointconv - INFO - Epoch 54 (54/100):
+2021-02-07 19:57:41,507 - pointconv - INFO - Train Accuracy: 0.838889
+2021-02-07 19:58:30,077 - pointconv - INFO - Loss: 0.25
+2021-02-07 19:58:30,077 - pointconv - INFO - Test Accuracy: 0.682927  *** Best Test Accuracy: 0.829268
+2021-02-07 19:58:30,077 - pointconv - INFO - Epoch 55 (55/100):
+2021-02-07 20:00:12,599 - pointconv - INFO - Train Accuracy: 0.838889
+2021-02-07 20:01:00,193 - pointconv - INFO - Loss: 0.32
+2021-02-07 20:01:00,193 - pointconv - INFO - Test Accuracy: 0.731707  *** Best Test Accuracy: 0.829268
+2021-02-07 20:01:00,193 - pointconv - INFO - Epoch 56 (56/100):
+2021-02-07 20:02:39,065 - pointconv - INFO - Train Accuracy: 0.822222
+2021-02-07 20:03:25,932 - pointconv - INFO - Loss: 1.34
+2021-02-07 20:03:25,932 - pointconv - INFO - Test Accuracy: 0.658537  *** Best Test Accuracy: 0.829268
+2021-02-07 20:03:25,932 - pointconv - INFO - Epoch 57 (57/100):
+2021-02-07 20:05:10,498 - pointconv - INFO - Train Accuracy: 0.811111
+2021-02-07 20:05:55,215 - pointconv - INFO - Loss: 0.76
+2021-02-07 20:05:55,215 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 20:05:55,215 - pointconv - INFO - Epoch 58 (58/100):
+2021-02-07 20:07:45,499 - pointconv - INFO - Train Accuracy: 0.777778
+2021-02-07 20:08:33,615 - pointconv - INFO - Save model...
+2021-02-07 20:08:33,975 - pointconv - INFO - Loss: 0.95
+2021-02-07 20:08:33,975 - pointconv - INFO - Test Accuracy: 0.829268  *** Best Test Accuracy: 0.829268
+2021-02-07 20:08:33,975 - pointconv - INFO - Epoch 59 (59/100):
+2021-02-07 20:10:21,427 - pointconv - INFO - Train Accuracy: 0.822222
+2021-02-07 20:11:09,504 - pointconv - INFO - Loss: 0.12
+2021-02-07 20:11:09,505 - pointconv - INFO - Test Accuracy: 0.707317  *** Best Test Accuracy: 0.829268
+2021-02-07 20:11:09,505 - pointconv - INFO - Epoch 60 (60/100):
+2021-02-07 20:12:45,974 - pointconv - INFO - Train Accuracy: 0.766667
+2021-02-07 20:13:33,585 - pointconv - INFO - Loss: 0.23
+2021-02-07 20:13:33,585 - pointconv - INFO - Test Accuracy: 0.804878  *** Best Test Accuracy: 0.829268
+2021-02-07 20:13:33,585 - pointconv - INFO - Epoch 61 (61/100):
+2021-02-07 20:15:08,539 - pointconv - INFO - Train Accuracy: 0.811111
+2021-02-07 20:15:56,458 - pointconv - INFO - Loss: 0.16
+2021-02-07 20:15:56,458 - pointconv - INFO - Test Accuracy: 0.804878  *** Best Test Accuracy: 0.829268
+2021-02-07 20:15:56,459 - pointconv - INFO - Epoch 62 (62/100):
+2021-02-07 20:17:34,448 - pointconv - INFO - Train Accuracy: 0.772222
+2021-02-07 20:18:20,499 - pointconv - INFO - Loss: 1.48
+2021-02-07 20:18:20,499 - pointconv - INFO - Test Accuracy: 0.731707  *** Best Test Accuracy: 0.829268
+2021-02-07 20:18:20,499 - pointconv - INFO - Epoch 63 (63/100):
+2021-02-07 20:19:56,298 - pointconv - INFO - Train Accuracy: 0.827778
+2021-02-07 20:20:43,768 - pointconv - INFO - Loss: 0.04
+2021-02-07 20:20:43,769 - pointconv - INFO - Test Accuracy: 0.804878  *** Best Test Accuracy: 0.829268
+2021-02-07 20:20:43,769 - pointconv - INFO - Epoch 64 (64/100):
+2021-02-07 20:22:20,882 - pointconv - INFO - Train Accuracy: 0.783333
+2021-02-07 20:23:07,636 - pointconv - INFO - Loss: 0.37
+2021-02-07 20:23:07,636 - pointconv - INFO - Test Accuracy: 0.804878  *** Best Test Accuracy: 0.829268
+2021-02-07 20:23:07,636 - pointconv - INFO - Epoch 65 (65/100):
+2021-02-07 20:25:03,221 - pointconv - INFO - Train Accuracy: 0.855556
+2021-02-07 20:25:51,312 - pointconv - INFO - Loss: 0.20
+2021-02-07 20:25:51,312 - pointconv - INFO - Test Accuracy: 0.804878  *** Best Test Accuracy: 0.829268
+2021-02-07 20:25:51,312 - pointconv - INFO - Epoch 66 (66/100):
+2021-02-07 20:27:44,961 - pointconv - INFO - Train Accuracy: 0.783333
+2021-02-07 20:28:34,970 - pointconv - INFO - Save model...
+2021-02-07 20:28:35,361 - pointconv - INFO - Loss: 2.20
+2021-02-07 20:28:35,361 - pointconv - INFO - Test Accuracy: 0.829268  *** Best Test Accuracy: 0.829268
+2021-02-07 20:28:35,361 - pointconv - INFO - Epoch 67 (67/100):
+2021-02-07 20:30:18,079 - pointconv - INFO - Train Accuracy: 0.844444
+2021-02-07 20:31:06,777 - pointconv - INFO - Loss: 0.86
+2021-02-07 20:31:06,777 - pointconv - INFO - Test Accuracy: 0.804878  *** Best Test Accuracy: 0.829268
+2021-02-07 20:31:06,777 - pointconv - INFO - Epoch 68 (68/100):
+2021-02-07 20:32:43,508 - pointconv - INFO - Train Accuracy: 0.827778
+2021-02-07 20:33:30,962 - pointconv - INFO - Loss: 0.65
+2021-02-07 20:33:30,962 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.829268
+2021-02-07 20:33:30,962 - pointconv - INFO - Epoch 69 (69/100):
+2021-02-07 20:35:13,609 - pointconv - INFO - Train Accuracy: 0.850000
+2021-02-07 20:36:00,823 - pointconv - INFO - Loss: 0.43
+2021-02-07 20:36:00,823 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 20:36:00,823 - pointconv - INFO - Epoch 70 (70/100):
+2021-02-07 20:37:40,956 - pointconv - INFO - Train Accuracy: 0.861111
+2021-02-07 20:38:27,985 - pointconv - INFO - Loss: 0.09
+2021-02-07 20:38:27,986 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.829268
+2021-02-07 20:38:27,986 - pointconv - INFO - Epoch 71 (71/100):
+2021-02-07 20:40:05,866 - pointconv - INFO - Train Accuracy: 0.838889
+2021-02-07 20:40:53,916 - pointconv - INFO - Loss: 0.30
+2021-02-07 20:40:53,917 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 20:40:53,917 - pointconv - INFO - Epoch 72 (72/100):
+2021-02-07 20:42:31,647 - pointconv - INFO - Train Accuracy: 0.838889
+2021-02-07 20:43:19,566 - pointconv - INFO - Save model...
+2021-02-07 20:43:19,924 - pointconv - INFO - Loss: 1.00
+2021-02-07 20:43:19,924 - pointconv - INFO - Test Accuracy: 0.829268  *** Best Test Accuracy: 0.829268
+2021-02-07 20:43:19,924 - pointconv - INFO - Epoch 73 (73/100):
+2021-02-07 20:45:01,185 - pointconv - INFO - Train Accuracy: 0.816667
+2021-02-07 20:45:49,337 - pointconv - INFO - Save model...
+2021-02-07 20:45:49,696 - pointconv - INFO - Loss: 0.23
+2021-02-07 20:45:49,696 - pointconv - INFO - Test Accuracy: 0.829268  *** Best Test Accuracy: 0.829268
+2021-02-07 20:45:49,696 - pointconv - INFO - Epoch 74 (74/100):
+2021-02-07 20:47:29,461 - pointconv - INFO - Train Accuracy: 0.744444
+2021-02-07 20:48:16,094 - pointconv - INFO - Loss: 0.94
+2021-02-07 20:48:16,094 - pointconv - INFO - Test Accuracy: 0.804878  *** Best Test Accuracy: 0.829268
+2021-02-07 20:48:16,094 - pointconv - INFO - Epoch 75 (75/100):
+2021-02-07 20:49:54,373 - pointconv - INFO - Train Accuracy: 0.883333
+2021-02-07 20:50:42,671 - pointconv - INFO - Loss: 0.25
+2021-02-07 20:50:42,671 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 20:50:42,671 - pointconv - INFO - Epoch 76 (76/100):
+2021-02-07 20:52:17,604 - pointconv - INFO - Train Accuracy: 0.722222
+2021-02-07 20:53:05,376 - pointconv - INFO - Loss: 3.74
+2021-02-07 20:53:05,377 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.829268
+2021-02-07 20:53:05,377 - pointconv - INFO - Epoch 77 (77/100):
+2021-02-07 20:54:50,616 - pointconv - INFO - Train Accuracy: 0.811111
+2021-02-07 20:55:38,197 - pointconv - INFO - Loss: 1.33
+2021-02-07 20:55:38,197 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.829268
+2021-02-07 20:55:38,197 - pointconv - INFO - Epoch 78 (78/100):
+2021-02-07 20:57:21,963 - pointconv - INFO - Train Accuracy: 0.783333
+2021-02-07 20:58:08,316 - pointconv - INFO - Loss: 0.53
+2021-02-07 20:58:08,316 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 20:58:08,316 - pointconv - INFO - Epoch 79 (79/100):
+2021-02-07 20:59:46,584 - pointconv - INFO - Train Accuracy: 0.805556
+2021-02-07 21:00:34,150 - pointconv - INFO - Loss: 0.11
+2021-02-07 21:00:34,150 - pointconv - INFO - Test Accuracy: 0.804878  *** Best Test Accuracy: 0.829268
+2021-02-07 21:00:34,150 - pointconv - INFO - Epoch 80 (80/100):
+2021-02-07 21:02:13,036 - pointconv - INFO - Train Accuracy: 0.838889
+2021-02-07 21:02:59,626 - pointconv - INFO - Loss: 0.01
+2021-02-07 21:02:59,626 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 21:02:59,626 - pointconv - INFO - Epoch 81 (81/100):
+2021-02-07 21:04:36,677 - pointconv - INFO - Train Accuracy: 0.805556
+2021-02-07 21:05:23,518 - pointconv - INFO - Loss: 0.34
+2021-02-07 21:05:23,518 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 21:05:23,518 - pointconv - INFO - Epoch 82 (82/100):
+2021-02-07 21:07:06,974 - pointconv - INFO - Train Accuracy: 0.833333
+2021-02-07 21:07:53,036 - pointconv - INFO - Loss: 0.19
+2021-02-07 21:07:53,036 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 21:07:53,036 - pointconv - INFO - Epoch 83 (83/100):
+2021-02-07 21:09:33,701 - pointconv - INFO - Train Accuracy: 0.838889
+2021-02-07 21:10:18,197 - pointconv - INFO - Loss: 0.49
+2021-02-07 21:10:18,197 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.829268
+2021-02-07 21:10:18,197 - pointconv - INFO - Epoch 84 (84/100):
+2021-02-07 21:11:56,273 - pointconv - INFO - Train Accuracy: 0.822222
+2021-02-07 21:12:42,485 - pointconv - INFO - Loss: 3.40
+2021-02-07 21:12:42,486 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 21:12:42,486 - pointconv - INFO - Epoch 85 (85/100):
+2021-02-07 21:14:25,933 - pointconv - INFO - Train Accuracy: 0.866667
+2021-02-07 21:15:13,333 - pointconv - INFO - Loss: 0.61
+2021-02-07 21:15:13,333 - pointconv - INFO - Test Accuracy: 0.804878  *** Best Test Accuracy: 0.829268
+2021-02-07 21:15:13,333 - pointconv - INFO - Epoch 86 (86/100):
+2021-02-07 21:16:43,923 - pointconv - INFO - Train Accuracy: 0.827778
+2021-02-07 21:17:32,085 - pointconv - INFO - Loss: 0.26
+2021-02-07 21:17:32,085 - pointconv - INFO - Test Accuracy: 0.731707  *** Best Test Accuracy: 0.829268
+2021-02-07 21:17:32,085 - pointconv - INFO - Epoch 87 (87/100):
+2021-02-07 21:19:13,601 - pointconv - INFO - Train Accuracy: 0.811111
+2021-02-07 21:20:02,477 - pointconv - INFO - Loss: 1.35
+2021-02-07 21:20:02,477 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.829268
+2021-02-07 21:20:02,477 - pointconv - INFO - Epoch 88 (88/100):
+2021-02-07 21:21:36,956 - pointconv - INFO - Train Accuracy: 0.827778
+2021-02-07 21:22:22,839 - pointconv - INFO - Loss: 0.35
+2021-02-07 21:22:22,839 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 21:22:22,839 - pointconv - INFO - Epoch 89 (89/100):
+2021-02-07 21:24:00,916 - pointconv - INFO - Train Accuracy: 0.844444
+2021-02-07 21:24:52,563 - pointconv - INFO - Loss: 0.26
+2021-02-07 21:24:52,563 - pointconv - INFO - Test Accuracy: 0.682927  *** Best Test Accuracy: 0.829268
+2021-02-07 21:24:52,563 - pointconv - INFO - Epoch 90 (90/100):
+2021-02-07 21:26:26,200 - pointconv - INFO - Train Accuracy: 0.844444
+2021-02-07 21:27:15,864 - pointconv - INFO - Loss: 0.01
+2021-02-07 21:27:15,864 - pointconv - INFO - Test Accuracy: 0.707317  *** Best Test Accuracy: 0.829268
+2021-02-07 21:27:15,864 - pointconv - INFO - Epoch 91 (91/100):
+2021-02-07 21:28:54,268 - pointconv - INFO - Train Accuracy: 0.844444
+2021-02-07 21:29:45,028 - pointconv - INFO - Loss: 2.89
+2021-02-07 21:29:45,028 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 21:29:45,029 - pointconv - INFO - Epoch 92 (92/100):
+2021-02-07 21:31:29,260 - pointconv - INFO - Train Accuracy: 0.822222
+2021-02-07 21:32:19,598 - pointconv - INFO - Loss: 0.70
+2021-02-07 21:32:19,598 - pointconv - INFO - Test Accuracy: 0.707317  *** Best Test Accuracy: 0.829268
+2021-02-07 21:32:19,598 - pointconv - INFO - Epoch 93 (93/100):
+2021-02-07 21:33:54,698 - pointconv - INFO - Train Accuracy: 0.877778
+2021-02-07 21:34:45,563 - pointconv - INFO - Loss: 0.48
+2021-02-07 21:34:45,563 - pointconv - INFO - Test Accuracy: 0.756098  *** Best Test Accuracy: 0.829268
+2021-02-07 21:34:45,563 - pointconv - INFO - Epoch 94 (94/100):
+2021-02-07 21:36:26,268 - pointconv - INFO - Train Accuracy: 0.833333
+2021-02-07 21:37:14,100 - pointconv - INFO - Loss: 0.29
+2021-02-07 21:37:14,100 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.829268
+2021-02-07 21:37:14,100 - pointconv - INFO - Epoch 95 (95/100):
+2021-02-07 21:38:58,846 - pointconv - INFO - Train Accuracy: 0.861111
+2021-02-07 21:39:46,241 - pointconv - INFO - Loss: 0.35
+2021-02-07 21:39:46,241 - pointconv - INFO - Test Accuracy: 0.804878  *** Best Test Accuracy: 0.829268
+2021-02-07 21:39:46,241 - pointconv - INFO - Epoch 96 (96/100):
+2021-02-07 21:41:26,332 - pointconv - INFO - Train Accuracy: 0.866667
+2021-02-07 21:42:13,915 - pointconv - INFO - Save model...
+2021-02-07 21:42:14,285 - pointconv - INFO - Loss: 0.33
+2021-02-07 21:42:14,285 - pointconv - INFO - Test Accuracy: 0.829268  *** Best Test Accuracy: 0.829268
+2021-02-07 21:42:14,285 - pointconv - INFO - Epoch 97 (97/100):
+2021-02-07 21:43:54,356 - pointconv - INFO - Train Accuracy: 0.883333
+2021-02-07 21:44:42,442 - pointconv - INFO - Loss: 0.39
+2021-02-07 21:44:42,442 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.829268
+2021-02-07 21:44:42,442 - pointconv - INFO - Epoch 98 (98/100):
+2021-02-07 21:46:23,792 - pointconv - INFO - Train Accuracy: 0.911111
+2021-02-07 21:47:11,489 - pointconv - INFO - Loss: 0.06
+2021-02-07 21:47:11,489 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.829268
+2021-02-07 21:47:11,489 - pointconv - INFO - Epoch 99 (99/100):
+2021-02-07 21:48:53,841 - pointconv - INFO - Train Accuracy: 0.872222
+2021-02-07 21:49:40,636 - pointconv - INFO - Loss: 2.25
+2021-02-07 21:49:40,636 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.829268
+2021-02-07 21:49:40,636 - pointconv - INFO - Epoch 100 (100/100):
+2021-02-07 21:51:25,788 - pointconv - INFO - Train Accuracy: 0.894444
+2021-02-07 21:52:12,489 - pointconv - INFO - Loss: 1.44
+2021-02-07 21:52:12,489 - pointconv - INFO - Test Accuracy: 0.780488  *** Best Test Accuracy: 0.829268
+2021-02-07 21:52:12,489 - pointconv - INFO - End of training...
